@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff87,100:7c3aed&height=220&section=header&text=Hector%20Lizcano&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Web%20%26%20Mobile&descAlignY=58&descSize=22&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff87,100:7c3aed&height=220&section=header&text=Hector%20Lizcano&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20Web%20and%20Mobile&descAlignY=58&descSize=22&animation=fadeIn" width="100%"/>
 
 <a href="https://hector1120.github.io/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=800&color=00ff87&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=Hola+mundo!+Soy+Hector+Lizcano;Desarrollador+Web+%26+Movil+Full+Stack;Construyendo+soluciones+que+importan" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=800&color=00ff87&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=Hola+mundo!+Soy+Hector+Lizcano;Desarrollador+Web+y+Movil+Full+Stack;Construyendo+soluciones+que+importan" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -86,8 +86,9 @@ const hector = {
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Hector1120&show_icons=true&theme=tokyonight&border_color=7c3aed&title_color=00ff87&icon_color=7c3aed&text_color=ffffff&bg_color=0a0a0a&rank_icon=github&include_all_commits=true&count_private=true"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hector1120&layout=compact&theme=tokyonight&border_color=7c3aed&title_color=00ff87&text_color=ffffff&bg_color=0a0a0a&langs_count=8"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Hector1120&show_icons=true&theme=tokyonight&border_color=7c3aed&title_color=00ff87&icon_color=7c3aed&text_color=ffffff&bg_color=0a0a0a&rank_icon=github&include_all_commits=true&count_private=true&cache_seconds=1800"/>
+&nbsp;
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hector1120&layout=compact&theme=tokyonight&border_color=7c3aed&title_color=00ff87&text_color=ffffff&bg_color=0a0a0a&langs_count=8&cache_seconds=1800"/>
 
 <br/><br/>
 
@@ -132,6 +133,7 @@ const hector = {
 <a href="https://hector1120.github.io/">
   <img src="https://img.shields.io/badge/Portafolio-00ff87?style=for-the-badge&logoColor=black" height="40"/>
 </a>
+&nbsp;
 <a href="https://github.com/Hector1120">
   <img src="https://img.shields.io/badge/GitHub-7c3aed?style=for-the-badge&logo=github&logoColor=white" height="40"/>
 </a>
