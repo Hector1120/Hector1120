@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff87,100:7c3aed&height=220&section=header&text=Hector%20Lizcano&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20Web%20and%20Mobile&descAlignY=58&descSize=22&animation=fadeIn" width="100%"/>
 
 <a href="https://hector1120.github.io/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=800&color=00ff87&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=Hola+mundo!+Soy+Hector+Lizcano;Desarrollador+Web+y+Movil+Full+Stack;Construyendo+soluciones+que+importan" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=00ff87&center=true&vCenter=true&multiline=false&repeat=true&width=750&height=50&lines=Hola+mundo!+Soy+Hector+Lizcano;Desarrollador+Web+y+Movil+Full+Stack;Construyendo+soluciones+que+importan" alt="Typing SVG" />
 </a>
 
 <br/>
