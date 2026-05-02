@@ -1,144 +1,209 @@
 <div align="center">
 
-<!-- Animated header banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hector%20Lizcano&fontSize=42&fontColor=00ff87&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20Web%20%26%20Mobile&descAlignY=55&descSize=18&descColor=a3a3a3" width="100%"/>
-
-<!-- Typing animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FF87&center=true&vCenter=true&multiline=true&width=700&height=100&lines=Hola+mundo%2C+soy+Hector+%F0%9F%91%8B;Full+Stack+Developer+%7C+Web+%26+Mobile;React+%E2%80%A2+Django+%E2%80%A2+Flutter+%E2%80%A2+Python" alt="Typing SVG" />
+<!-- BANNER SVG ANIMADO -->
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050505"/>
+      <stop offset="50%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#1a0a2e"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff87"/>
+      <stop offset="50%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="200" fill="url(#bg)" rx="18"/>
+  <line x1="0" y1="4" x2="900" y2="4" stroke="#00ff87" stroke-width="2" opacity="0.4"/>
+  <line x1="0" y1="196" x2="900" y2="196" stroke="#7c3aed" stroke-width="2" opacity="0.4"/>
+  <circle cx="60" cy="100" r="35" fill="none" stroke="#00ff87" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="60" cy="100" r="22" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.5"/>
+  <circle cx="840" cy="100" r="35" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="840" cy="100" r="22" fill="none" stroke="#00ff87" stroke-width="1" opacity="0.5"/>
+  <circle cx="150" cy="30" r="3" fill="#00ff87" opacity="0.6"/>
+  <circle cx="750" cy="170" r="3" fill="#7c3aed" opacity="0.6"/>
+  <circle cx="200" cy="170" r="2" fill="#f59e0b" opacity="0.5"/>
+  <circle cx="700" cy="30" r="2" fill="#00ff87" opacity="0.5"/>
+  <text x="450" y="95" font-family="'Courier New', monospace" font-size="46" font-weight="900"
+        text-anchor="middle" fill="url(#textGrad)" filter="url(#glow)" letter-spacing="3">
+    HECTOR LIZCANO
+  </text>
+  <text x="450" y="135" font-family="'Courier New', monospace" font-size="16"
+        text-anchor="middle" fill="#a3a3a3" letter-spacing="6">
+    FULL STACK DEVELOPER  ·  WEB &amp; MOBILE
+  </text>
+  <line x1="300" y1="148" x2="600" y2="148" stroke="url(#textGrad)" stroke-width="1.5" opacity="0.6"/>
+  <text x="110" y="85" font-family="'Courier New', monospace" font-size="11" fill="#00ff87" opacity="0.5">&lt;dev&gt;</text>
+  <text x="100" y="120" font-family="'Courier New', monospace" font-size="11" fill="#7c3aed" opacity="0.5">&lt;/dev&gt;</text>
+  <text x="770" y="85" font-family="'Courier New', monospace" font-size="11" fill="#f59e0b" opacity="0.5">{ code }</text>
+  <text x="765" y="120" font-family="'Courier New', monospace" font-size="11" fill="#00ff87" opacity="0.5">() =&gt; 🚀</text>
+</svg>
 
 <br/>
 
-<!-- Profile views & followers badges -->
-![Profile Views](https://komarev.com/ghpvc/?username=Hector1120&color=00ff87&style=for-the-badge&label=VISITAS+AL+PERFIL)
-[![GitHub followers](https://img.shields.io/github/followers/Hector1120?label=Followers&style=for-the-badge&color=7c3aed&labelColor=0a0a0a)](https://github.com/Hector1120)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00FF87&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer+%F0%9F%9A%80;Web+%26+Mobile+Engineer+%F0%9F%93%B1;React+%7C+Django+%7C+Flutter+%7C+PostgreSQL;Building+cool+stuff+one+commit+at+a+time+%F0%9F%94%A5)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-<!-- About me section -->
-<img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif"/>
+## 👾 Sobre mí
 
-## 🚀 Sobre mí
-
-```python
-class HectorLizcano:
-    def __init__(self):
-        self.nombre     = "Hector Yurbrainer Lizcano Agudelo"
-        self.rol        = "Full Stack Developer"
-        self.ubicacion  = "Colombia 🇨🇴"
-        self.portfolio  = "https://hector1120.github.io/"
-        self.stack      = ["React", "Django", "Flutter", "Python"]
-        self.db         = ["PostgreSQL"]
-        self.pasion     = "Construir soluciones que impacten vidas 💡"
-
-    def saludo(self):
-        return "¡Hablemos de tu próximo proyecto! 🤝"
+```javascript
+const hector = {
+  nombre:     "Hector Yurbrainer Lizcano Agudelo",
+  ubicación:  "Colombia 🇨🇴",
+  rol:        "Full Stack Developer · Web & Mobile",
+  stack:      ["React", "Django", "Flutter", "PostgreSQL"],
+  pasión:     "Construir soluciones innovadoras y elegantes",
+  disponible: true, // ← open to work 👀
+};
 ```
 
-- 🔭 Trabajo en **sistemas web y móviles Full Stack**
-- 🌱 Siempre aprendiendo y explorando nuevas tecnologías
-- 💼 Disponible para nuevas oportunidades y colaboraciones
-- ⚡ Me encanta combinar diseño elegante con código eficiente
-- 📫 Contáctame en: **[mi portafolio](https://hector1120.github.io/)**
-
-<br clear="right"/>
+<div align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="380" alt="coding gif"/>
+</div>
 
 ---
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-
 ### 🌐 Frontend
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+<p align="left">
+  <img src="https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Bootstrap-%237952B3.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+</p>
 
 ### ⚙️ Backend
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white"/>
+</p>
 
 ### 📱 Mobile
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+<p align="left">
+  <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white"/>
+</p>
 
-### 🗄️ Base de Datos & Herramientas
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-00ff87?style=for-the-badge&logo=fastapi&logoColor=black)
+### 🗄️ Base de Datos & DevOps
+<p align="left">
+  <img src="https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+</p>
 
+---
+
+## 🚀 Proyectos Destacados
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🎓 Sistema de Gestión de Asesorías</h3>
+      <p align="center">
+        Plataforma web completa para gestión de asesorías académicas en la Universidad Cesmag. Permite organizar, programar y dar seguimiento a sesiones estudiantiles.
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/REST API-FF6B35?style=flat-square"/>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">⚡ Priorización de Cargas Eléctricas</h3>
+      <p align="center">
+        App innovadora para gestión de proyectos eléctricos. Integra ESP32 + Arduino, generando pronósticos cada 5 min combinando red eléctrica y energía fotovoltaica.
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+        <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square"/>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Hector1120&show_icons=true&theme=radical&include_all_commits=true&count_private=true&title_color=00ff87&icon_color=7c3aed&text_color=ffffff&bg_color=0a0a0a&border_color=7c3aed"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hector1120&layout=compact&theme=radical&title_color=00ff87&text_color=ffffff&bg_color=0a0a0a&border_color=7c3aed"/>
+
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hector1120&theme=radical&background=0a0a0a&border=7c3aed&stroke=7c3aed&ring=00ff87&fire=f59e0b&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00ff87&sideLabels=a3a3a3&dates=a3a3a3" alt="streak stats"/>
 </div>
 
 ---
 
-## 📊 Mis Estadísticas
+## 🐍 Contribuciones
 
 <div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Hector1120&show_icons=true&theme=radical&include_all_commits=true&count_private=true&title_color=00ff87&icon_color=7c3aed&text_color=ffffff&bg_color=0a0a0a&border_color=00ff87"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hector1120&layout=compact&langs_count=8&theme=radical&title_color=00ff87&text_color=ffffff&bg_color=0a0a0a&border_color=00ff87"/>
-
+  <img src="https://raw.githubusercontent.com/Hector1120/Hector1120/output/github-contribution-grid-snake-dark.svg" alt="snake gif" />
 </div>
 
+> 💡 *Para activar la serpiente de contribuciones, crea `.github/workflows/snake.yml` en tu repo de perfil.*
+
+---
+
+## 🎯 En qué estoy trabajando
+
+```python
+class HectorAhora:
+    aprendiendo   = ["Next.js", "Docker", "AWS"]
+    construyendo  = ["Proyectos Full Stack", "Apps móviles con Flutter"]
+    buscando      = "Colaborar en proyectos open source 🤝"
+    meta_2025     = "Lanzar productos propios 🚀"
+```
+
 <div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Hector1120&theme=radical&background=0a0a0a&border=00ff87&ring=7c3aed&fire=f59e0b&currStreakLabel=00ff87&sideLabels=a3a3a3&dates=a3a3a3)](https://git.io/streak-stats)
-
+  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="300" alt="hacking gif"/>
 </div>
 
 ---
 
-## 🏆 Proyectos Destacados
+## 🌐 Conectemos
 
 <div align="center">
-
-| 🎓 Sistema de Asesorías Académicas | ⚡ Priorización de Cargas Eléctricas |
-|---|---|
-| Plataforma web para gestión de asesorías en la **Universidad Cesmag** | App con simulación **ESP32 + Arduino** y pronósticos cada 5 min |
-| `React` `Django` `PostgreSQL` `REST API` | `Flask` `Python` `JavaScript` `ESP32` |
-
-</div>
-
----
-
-## 📈 Actividad de Contribuciones
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Hector1120&bg_color=0a0a0a&color=00ff87&line=7c3aed&point=f59e0b&area=true&hide_border=false&border_color=00ff87" width="100%"/>
-</div>
-
----
-
-## 🏅 Trofeos GitHub
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Hector1120&theme=radical&no-frame=false&no-bg=false&margin-w=4&row=1&column=7&title_color=00ff87" width="100%"/>
-</div>
-
----
-
-## 🤝 Conecta Conmigo
-
-<div align="center">
-
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"/>
-
-*Me encanta conectar con otros desarrolladores y personas creativas.*
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portafolio-00ff87?style=for-the-badge&logoColor=black)](https://hector1120.github.io/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hector1120)
-
-<br/>
-
-> *"El código es poesía. Cada línea cuenta una historia."* ✨
+[![GitHub](https://img.shields.io/badge/GitHub-0a0a0a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hector1120)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tu-perfil)
+[![Email](https://img.shields.io/badge/Email-f59e0b?style=for-the-badge&logo=gmail&logoColor=black)](mailto:tu@email.com)
 
 </div>
 
-<!-- Footer wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&fontColor=00ff87&animation=twinkling" width="100%"/>
+---
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════╗
+║   "El código es poesía que las máquinas  ║
+║    entienden y los humanos sienten."     ║
+║                        — Hector Lizcano  ║
+╚══════════════════════════════════════════╝
+```
+
+<img src="https://komarev.com/ghpvc/?username=Hector1120&color=00ff87&style=for-the-badge&label=VISITAS+AL+PERFIL" alt="profile views"/>
+
+</div>
