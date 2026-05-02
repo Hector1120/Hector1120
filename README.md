@@ -82,20 +82,6 @@ const hector = {
 
 ---
 
-## Estadisticas de GitHub
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Hector1120&show_icons=true&theme=tokyonight&border_color=7c3aed&title_color=00ff87&icon_color=7c3aed&text_color=ffffff&bg_color=0a0a0a&rank_icon=github&include_all_commits=true&count_private=true&cache_seconds=1800"/>
-&nbsp;
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hector1120&layout=compact&theme=tokyonight&border_color=7c3aed&title_color=00ff87&text_color=ffffff&bg_color=0a0a0a&langs_count=8&cache_seconds=1800"/>
-
-<br/><br/>
-
-<img height="180" src="https://streak-stats.demolab.com?user=Hector1120&theme=tokyonight&border=7c3aed&ring=00ff87&fire=00ff87&currStreakLabel=00ff87&sideLabels=ffffff&background=0a0a0a"/>
-
-</div>
-
 ---
 
 ## Mi actividad en GitHub
